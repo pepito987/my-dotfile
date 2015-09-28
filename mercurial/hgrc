@@ -1,0 +1,17 @@
+
+# Handy aliases so that you don't have to remember the URL of the server
+[paths]
+newlook = https://hg.neoworks.co.uk/NLK374
+
+[extensions]
+mercurial_keyring = /usr/lib/python2.7/dist-packages/hgext/mercurial_keyring.py
+purge = /usr/lib/python2.7/dist-packages/hgext/purge.py
+strip = /usr/lib/python2.7/dist-packages/hgext/strip.py
+prompt = /home/giuseppe.quartarone/git/hg-prompt/prompt.py
+
+ 
+# Authorisation setup which allows you to configure defaults for particular repositories
+[auth]
+newlook.prefix=hg.neoworks.co.uk/NLK374
+newlook.schemes = https
+newlook.username = giuseppe.quartarone
